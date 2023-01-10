@@ -127,7 +127,7 @@ document.body.onload = function () {
 const right_arrow = document.querySelector("#right-arrow")
 const left_arrow = document.querySelector("#left-arrow")
 
-rig²ht_arrow.onclick = function () { // Lors du clique
+right_arrow.onclick = function () { // Lors du clique
     if (current_position > -nombre_image + 1) {
         current_position--
     }
